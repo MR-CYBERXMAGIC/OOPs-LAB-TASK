@@ -10,7 +10,6 @@ class Professor {
         //Constructor
         Professor () {
             cout << "Enter professor name: ";
-            cin.ignore();
             getline(cin,name);
             cout << "Enter professor department: ";
             getline(cin,department);
